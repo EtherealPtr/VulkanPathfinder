@@ -1,0 +1,10 @@
+^C:\PROJECTS\CLOTHSIMULATOR\CLOTHSIMULATOR\DEPENDENCIES\GLFW-3.3.8\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Projects/ClothSimulator/ClothSimulator/Dependencies/glfw-3.3.8 -BC:/Projects/ClothSimulator/ClothSimulator/Dependencies/glfw-3.3.8/ProjectFiles --check-stamp-file C:/Projects/ClothSimulator/ClothSimulator/Dependencies/glfw-3.3.8/ProjectFiles/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

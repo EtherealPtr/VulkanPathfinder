@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\ClothSimulator\ClothSimulator\Dependencies\glfw-3.3.8\ProjectFiles\CMakeFiles\b8416406fba06f1b97b6e707fd66352a\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{80235A10-AECC-3DCB-9513-4773C2394FD3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
